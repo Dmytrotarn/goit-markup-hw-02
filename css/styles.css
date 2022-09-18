@@ -1,0 +1,85 @@
+:root {
+    --main-color: #212121;
+    --secondary-color: #757575;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --background-color: #F5F5F5;
+}
+
+
+body {
+    background-color: var(--background-color);
+
+}
+
+.list {
+    list-style: none;
+
+}
+
+
+.logo-blue {
+    color: var(--accent-color);
+}
+
+.site-nav .link,
+.logo-header {
+    color: var(--main-color);
+}
+
+.header-mail {
+    color: var(--accent-color);
+}
+
+.header-number {
+    color: var(--secondary-color);
+}
+
+.logo-footer {
+    color: var(--white-color);
+}
+
+.footer-adress {
+    color: var(--white-color);
+}
+
+.footer-mail {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.footer-number {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.feature-header {
+    color: var(--main-color);
+
+}
+
+.features-text {
+    color: var(--secondary-color);
+}
+
+.header-services {
+    color: var(--main-color);
+}
+
+.header-team {
+    color: var(--main-color);
+
+}
+
+.team-member {
+    color: var(--main-color);
+}
+
+.profession {
+    color: var(--secondary-color);
+}
