@@ -38,6 +38,11 @@ body {
     color: var(--accent-color);
 }
 
+.contactlink-footer:hover,
+.contactlink-footer:focus {
+    color: var(--accent-color);
+}
+
 
 /* Logo */
 
