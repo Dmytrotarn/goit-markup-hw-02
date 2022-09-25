@@ -87,8 +87,6 @@ body {
     background-color: #2F303A;
 }
 
-.logofooter-accent {}
-
 .footer-adress {
     font-style: normal;
     line-height: 1.71;
@@ -123,6 +121,11 @@ body {
     cursor: pointer;
     color: var(--white-color);
     background-color: var(--accent-color);
+}
+
+.hero-button:focus,
+.hero-button:hover {
+    background-color: #188CE8
 }
 
 
